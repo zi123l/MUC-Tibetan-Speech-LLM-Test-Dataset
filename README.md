@@ -57,6 +57,5 @@ The following table shows the dialect distribution statistics of the training se
 
 More detailed numerical information for the public test set is recorded in `data/dialect_stats.tsv`.
 
-## License
-
-Please review and finalize the contents of the `LICENSE` file before making the repository public, so that it remains consistent with the actual authorization scope of the dataset.
+## contact information
+Email：zhaoyueso@muc.edu.cn
