@@ -1,40 +1,43 @@
-# MUC Tibetan Dataset 公共发布说明
+# MUC Tibetan Speech LLM Test Dataset Public Release
 
-本仓库发布中央民族大学信息工程学院赵悦教授课题组建设的藏语语音翻译数据集中的公开测试集部分。语音数据主要由藏族同学参与录音采集，并在此基础上整理形成可用于藏语语音识别、语音翻译及相关任务研究的数据资源。
+This repository releases the dataset resources used by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China, for evaluating the Tibetan speech large language model Ti-audio. The dataset can be used to evaluate tasks such as Tibetan automatic speech recognition and Tibetan-Chinese speech translation.
 
-该项目整体包含训练集和测试集两部分。目前，项目数据仍在持续整理中，现阶段已完成规范化处理并对外公开的是测试集部分；训练集暂提供整体统计信息，后续如具备进一步公开条件，将再行说明。
+The full dataset constructed for the Ti-audio Tibetan speech large language model consists of both a training set and a test set. At present, only the test set is publicly released. Aggregate statistics of the training set are provided for reference, and further release details may be announced in the future if conditions permit.
 
-## 声明
+Paper URL: `XXXXX`
 
-本数据集由中央民族大学信息工程学院赵悦教授课题组组织建设，当前公开版本主要用于支持藏语语音识别、语音翻译及相关任务的学术研究与实验复现。
+## Statement
 
-为保护数据提供者权益并确保数据得到合理使用，本仓库内容仅建议用于科研、教学和非商业用途。如需将相关数据用于商业化场景或其他超出合理学术使用范围的用途，请在使用前联系数据建设团队获得授权。
+This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support academic research and experimental reproduction for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
 
-## 仓库内容
+To protect the rights and interests of data contributors and ensure the reasonable use of the data, the contents of this repository are recommended for research, teaching, and non-commercial use only. If you intend to use the dataset for commercial purposes or for any use beyond reasonable academic scope, please contact the dataset construction team in advance for authorization.
 
-当前仓库中公开的内容包括：
+## Repository Contents
 
-- `data/test_public.tsv`：公开测试集的标准 TSV 文件
-- `data/dialect_stats.tsv`：公开测试集的方言统计信息
-- `LICENSE`：数据集使用许可说明
+The current public repository includes:
 
-其中，`data/test_public.tsv` 是本次公开测试集的核心索引文件，记录了样本路径及对应标注信息；`data/dialect_stats.tsv` 用于说明不同方言在样本数量、总时长和数据体量上的分布情况。
+- `data/test_public.tsv`: the canonical TSV file for the public test set, with duplicate path entries removed
+- `data/dialect_stats.tsv`: dialect-level statistics for the public test set
+- `LICENSE`: dataset usage license
 
-完整测试集发布包中的音频文件不直接存放在仓库代码区，建议通过 GitHub Release 下载对应的发布归档文件。
+Among them, `data/test_public.tsv` is the core index file of the public test set and records sample paths together with the corresponding annotation information. `data/dialect_stats.tsv` describes the distribution of different dialects in terms of sample count, total duration, and data volume.
 
-## 数据范围
+Audio files from the complete test-set release package are not stored directly in the repository code area. They are recommended to be downloaded through the corresponding GitHub Release archive.
 
-本项目整体包含训练集与测试集两部分；当前仓库仅公开 `test 对应的语音翻译测试集部分。
+## Data Scope
 
-- `test_final.txt` 原始条目数：`20116`
-- 最终公开标准条目数：`20116`
-- 包含方言：`Amdo`、`Kham`、`Tsang`
-- 总时长：约 `36.5` 小时
-- 音频总大小：约 `1.96 GiB`
+The full project includes both a training set and a test set. The current repository publicly releases only the speech translation test portion corresponding to `test_final.txt`.
 
-## 训练集方言分布
+- Original number of entries in `test_final.txt`: `20120`
+- Number of duplicate path entries removed: `4`
+- Final number of public canonical entries: `20116`
+- Included dialects: `Amdo`, `Kham`, `Tsang`
+- Total duration: approximately `36.5` hours
+- Total audio size: approximately `1.96 GiB`
 
-下表为项目训练集部分的方言分布统计：
+## Training Set Dialect Distribution
+
+The following table shows the dialect distribution statistics of the training set:
 
 | Dialect | Hours | Samples | Ratio |
 | --- | ---: | ---: | ---: |
@@ -43,7 +46,7 @@
 | Tsang | 70.9 | 41927 | 35.4% |
 | Total | 203.6 | 118554 | 100% |
 
-## 测试集方言分布
+## Test Set Dialect Distribution
 
 | Dialect | Samples | Hours | Ratio |
 | --- | ---: | ---: | ---: |
@@ -52,7 +55,8 @@
 | Tsang | 7800 | 13.9 | 38.8% |
 | Total | 20116 | 36.5 | 100.0% |
 
-更详细的公开测试集数值信息记录在 `data/dialect_stats.tsv` 中。
+More detailed numerical information for the public test set is recorded in `data/dialect_stats.tsv`.
 
-## 联系方式
-电子邮箱：zhaoyueso@muc.edu.cn
+## License
+
+Please review and finalize the contents of the `LICENSE` file before making the repository public, so that it remains consistent with the actual authorization scope of the dataset.
