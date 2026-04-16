@@ -56,6 +56,41 @@ The following table shows the dialect distribution statistics of the training se
 | Total | 20116 | 36.5 | 100.0% |
 
 More detailed numerical information for the public test set is recorded in `data/dialect_stats.tsv`.
+## Benchmark Results on the Public Test Set
+
+The following tables report the evaluation results of Ti-audio and other baseline models on this public test set. Results are reported for speech translation (ST), machine translation (MT), and automatic speech recognition (ASR). For ST and MT, higher BLEU is better. For ASR, lower WER/CER is better.
+
+### ST Results
+
+| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Cascaded mHuBERT-DeepSeek V3.1 | 10.02 | 11.69 | 11.71 | 11.14 | BLEU |
+| Cascaded mHuBERT-Hunyuan-MT-7B | 9.97 | 11.28 | 11.79 | 11.01 | BLEU |
+| Cascaded mHuBERT-Gemini 3 Flash | 20.80 | 21.69 | 21.49 | 21.32 | BLEU |
+| Cascaded mHuBERT-Monlam | 11.00 | 10.88 | 9.41 | 10.43 | BLEU |
+| Gemini 3 Flash | 1.64 | 2.52 | 4.27 | 2.81 | BLEU |
+| **Ti-audio** | **20.59** | **22.11** | **23.45** | **22.05** | BLEU |
+
+### MT Results
+
+| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| --- | ---: | ---: | ---: | ---: | --- |
+| DeepSeek V3.1 | 14.45 | 15.85 | 15.93 | 15.41 | BLEU |
+| Hunyuan MT 7B | 13.23 | 12.51 | 13.83 | 13.19 | BLEU |
+| Gemini 3 Flash | 25.03 | 26.53 | 26.42 | 25.99 | BLEU |
+| Monlam | 15.66 | 15.58 | 13.23 | 14.82 | BLEU |
+
+### ASR Results
+
+| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| --- | ---: | ---: | ---: | ---: | --- |
+| mHuBERT (CTC) | 27.26 / 10.20 | 26.32 / 10.38 | 26.72 / 11.78 | 26.77 / 10.79 | WER / CER |
+| Meta Omnilingual | 76.89 / 47.73 | 75.60 / 49.44 | 66.63 / 41.24 | 73.04 / 46.14 | WER / CER |
+| **Ti-audio** | **14.25 / 9.57** | **14.15 / 9.60** | **14.99 / 10.31** | **14.46 / 9.83** | WER / CER |
+
+## License
+
+Please review and finalize the contents of the `LICENSE` file before making the repository public, so that it remains consistent with the actual authorization scope of the dataset.
 
 ## contact information
 Email：zhaoyueso@muc.edu.cn
