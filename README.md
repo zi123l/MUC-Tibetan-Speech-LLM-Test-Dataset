@@ -57,7 +57,7 @@ The following table shows the dialect distribution statistics of the training se
 More detailed numerical information for the public test set is recorded in `data/dialect_stats.tsv`.
 ## Benchmark Results on the Public Test Set
 
-The following tables report the evaluation results of Ti-audio and other baseline models on this public test set. Results are reported for speech translation (ST), machine translation (MT), and automatic speech recognition (ASR). For ST and MT, higher BLEU is better. For ASR, lower WER/CER is better.
+The following tables report the evaluation results of Ti-audio and several baseline models on this public test set. The results indicate that Ti-audio achieves favorable overall performance in comparison with the baseline systems, particularly on speech translation (ST) and automatic speech recognition (ASR) tasks. Results are reported for speech translation (ST), machine translation (MT), and automatic speech recognition (ASR). For ST and MT, higher BLEU is better. For ASR, lower WER/CER is better
 
 ### ST Results
 
