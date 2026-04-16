@@ -88,9 +88,6 @@ The following tables report the evaluation results of Ti-audio and other baselin
 | Meta Omnilingual | 76.89 / 47.73 | 75.60 / 49.44 | 66.63 / 41.24 | 73.04 / 46.14 | WER / CER |
 | **Ti-audio** | **14.25 / 9.57** | **14.15 / 9.60** | **14.99 / 10.31** | **14.46 / 9.83** | WER / CER |
 
-## License
-
-Please review and finalize the contents of the `LICENSE` file before making the repository public, so that it remains consistent with the actual authorization scope of the dataset.
 
 ## contact information
 Email：zhaoyueso@muc.edu.cn
