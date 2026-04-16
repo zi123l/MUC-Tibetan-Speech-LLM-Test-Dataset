@@ -4,8 +4,7 @@ This repository releases the dataset resources used by Professor Yue Zhao's rese
 
 The full dataset constructed for the Ti-audio Tibetan speech large language model consists of both a training set and a test set. At present, only the test set is publicly released. Aggregate statistics of the training set are provided for reference, and further release details may be announced in the future if conditions permit.
 
-Paper URL: `[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)`
-
+Paper URL:[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)
 ## Statement
 
 This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support academic research and experimental reproduction for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
