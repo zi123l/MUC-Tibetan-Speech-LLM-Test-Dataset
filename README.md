@@ -4,7 +4,7 @@ This repository releases the dataset resources used by Professor Yue Zhao's rese
 
 The full dataset constructed for the Ti-audio Tibetan speech large language model consists of both a training set and a test set. At present, only the test set is publicly released. Aggregate statistics of the training set are provided for reference, and further release details may be announced in the future if conditions permit.
 
-Paper URL: `(https://arxiv.org/abs/2604.11110)`
+Paper URL: `[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)`
 
 ## Statement
 
