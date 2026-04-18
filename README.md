@@ -7,7 +7,7 @@ The full dataset constructed for the Ti-audio Tibetan speech large language mode
 Paper URL:[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)
 ## Statement
 
-This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support academic research and experimental reproduction for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
+This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support experimental evaluation and model comparison for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
 
 To protect the rights and interests of data contributors and ensure the reasonable use of the data, the contents of this repository are recommended for research, teaching, and non-commercial use only. If you intend to use the dataset for commercial purposes or for any use beyond reasonable academic scope, please contact the dataset construction team in advance for authorization.
 
@@ -42,7 +42,7 @@ The following table shows the dialect distribution statistics of the training se
 | --- | ---: | ---: | ---: |
 | Amdo | 52.9 | 32813 | 27.7% |
 | Kham | 79.8 | 43814 | 37.0% |
-| Tsang | 70.9 | 41927 | 35.4% |
+| Ü-Tsang | 70.9 | 41927 | 35.4% |
 | Total | 203.6 | 118554 | 100% |
 
 ## Test Set Dialect Distribution
@@ -51,7 +51,7 @@ The following table shows the dialect distribution statistics of the training se
 | --- | ---: | ---: | ---: |
 | Amdo | 5279 | 8.7 | 26.2% |
 | Kham | 7037 | 13.9 | 35.0% |
-| Tsang | 7800 | 13.9 | 38.8% |
+| Ü-Tsang | 7800 | 13.9 | 38.8% |
 | Total | 20116 | 36.5 | 100.0% |
 
 More detailed numerical information for the public test set is recorded in `data/dialect_stats.tsv`.
