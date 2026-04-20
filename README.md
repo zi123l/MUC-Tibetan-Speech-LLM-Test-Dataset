@@ -25,9 +25,9 @@ Audio files from the complete test-set release package are not stored directly i
 
 ## Data Scope
 
-The full project includes both a training set and a test set. The current repository publicly releases only the  test portion corresponding to test_final.txt.
+The full project includes both a training set and a test set. The current repository publicly releases only the  test portion corresponding to muc_tibetan_test.txt.
 
-- Original number of entries in `test_final.txt`: `20120`
+- Original number of entries in `muc_tibetan_test.txt`: `20120`
 - Number of duplicate path entries removed: `4`
 - Final number of public canonical entries: `20116`
 - Included dialects: `Amdo`, `Kham`, ` Ü-Tsang`
