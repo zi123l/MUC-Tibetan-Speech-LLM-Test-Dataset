@@ -61,7 +61,7 @@ The following tables report the evaluation results of Ti-audio and several basel
 
 ### ST Results
 
-| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| Model | Amdo | Kham | Ü-Tsang | Avg | Metric |
 | --- | ---: | ---: | ---: | ---: | --- |
 | Cascaded mHuBERT-DeepSeek V3.1 | 10.02 | 11.69 | 11.71 | 11.14 | BLEU |
 | Cascaded mHuBERT-Hunyuan-MT-7B | 9.97 | 11.28 | 11.79 | 11.01 | BLEU |
@@ -72,7 +72,7 @@ The following tables report the evaluation results of Ti-audio and several basel
 
 ### MT Results
 
-| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| Model | Amdo | Kham | Ü-Tsang | Avg | Metric |
 | --- | ---: | ---: | ---: | ---: | --- |
 | DeepSeek V3.1 | 14.45 | 15.85 | 15.93 | 15.41 | BLEU |
 | Hunyuan MT 7B | 13.23 | 12.51 | 13.83 | 13.19 | BLEU |
@@ -81,7 +81,7 @@ The following tables report the evaluation results of Ti-audio and several basel
 
 ### ASR Results
 
-| Model | Amdo | Kham | U-Tsang | Avg | Metric |
+| Model | Amdo | Kham | Ü-Tsang | Avg | Metric |
 | --- | ---: | ---: | ---: | ---: | --- |
 | mHuBERT (CTC) | 27.26 / 10.20 | 26.32 / 10.38 | 26.72 / 11.78 | 26.77 / 10.79 | WER / CER |
 | Meta Omnilingual | 76.89 / 47.73 | 75.60 / 49.44 | 66.63 / 41.24 | 73.04 / 46.14 | WER / CER |
