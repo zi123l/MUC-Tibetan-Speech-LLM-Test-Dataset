@@ -11,7 +11,6 @@ Paper URL: [Ti-Audio: The First Multi-Dialectal End-to-End Speech LLM for Tibeta
 
 The following table summarizes the Tibetan datasets used in the Ti-audio work. This repository corresponds only to the **MUC-Tibetan-Speech-LLM** entry listed below.
 
-Where a stable public dataset homepage is available, a direct clickable link is provided. For sources without a stable standalone dataset page, a reference page is provided instead.
 
 | Task | Data Source | Hours | Samples |
 | --- | --- | ---: | ---: |
