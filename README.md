@@ -26,8 +26,8 @@ Where a stable public dataset homepage is available, a direct clickable link is 
 | ASR / ST / GR | [M2ASR Tibetan (CSLT data index)](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data) | 72.3 | 58k+ |
 | ASR | [TIBMD@MUC (OpenSLR SLR124)](https://www.openslr.org/124/) | 84.3 | 68k+ |
 | ASR | [XBMU-AMDO31 (OpenSLR SLR133)](https://www.openslr.org/133/) | 31.0 | 22k+ |
-| ASR | [Tibetan Greetings / MUC-greeting (OpenSLR SLR149)](https://www.openslr.org/149/) | 2.8 | 3k+ |
-| ASR | [Tibetan SER / TBLS1 (reference page)](https://drpress.org/ojs/index.php/fcis/article/view/23012) | 2.7 | 6k+ |
+| ASR | [MUC-greeting (OpenSLR SLR149)](https://www.openslr.org/149/) | 2.8 | 3k+ |
+| ASR | [Tibetan SER(reference page)](https://drpress.org/ojs/index.php/fcis/article/view/23012) | 2.7 | 6k+ |
 | Total | Ti-audio full Tibetan dataset collection | 498.8 | 321k+ |
 
 ## Statement
