@@ -1,13 +1,5 @@
 # MUC Tibetan Speech LLM Test Dataset Public Release
 
-This repository releases the dataset resources used by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China, for evaluating the Tibetan speech large language model Ti-audio. The dataset can be used to evaluate tasks such as Tibetan automatic speech recognition and Tibetan-Chinese speech translation.
-
-The full dataset constructed for the Ti-audio Tibetan speech large language model consists of both a training set and a test set. At present, only the test set is publicly released. Aggregate statistics of the training set are provided for reference, and further release details may be announced in the future if conditions permit.
-
-Paper URL:[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)
-
-# MUC Tibetan Speech LLM Test Dataset Public Release
-
 This repository releases the **public test subset of MUC-Tibetan-Speech-LLM**, a dataset constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. It is one component of the full data collection used to build and evaluate the Tibetan speech large language model **Ti-audio**. The released data can be used to evaluate tasks such as Tibetan automatic speech recognition and Tibetan-Chinese speech translation.
 
 
