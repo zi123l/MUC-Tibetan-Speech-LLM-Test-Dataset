@@ -5,6 +5,31 @@ This repository releases the dataset resources used by Professor Yue Zhao's rese
 The full dataset constructed for the Ti-audio Tibetan speech large language model consists of both a training set and a test set. At present, only the test set is publicly released. Aggregate statistics of the training set are provided for reference, and further release details may be announced in the future if conditions permit.
 
 Paper URL:[https://arxiv.org/abs/2604.11110](https://arxiv.org/abs/2604.11110)
+
+# MUC Tibetan Speech LLM Test Dataset Public Release
+
+This repository releases the **public test subset of MUC-Tibetan-Speech-LLM**, which is one component of the full data collection used to build and evaluate the Tibetan speech large language model **Ti-audio**. The released data can be used to evaluate tasks such as Tibetan automatic speech recognition and Tibetan-Chinese speech translation.
+
+The complete Ti-audio data collection includes both training and test data and is assembled from multiple Tibetan datasets. This repository does **not** release the entire Ti-audio dataset. Instead, it releases only the public test portion of MUC-Tibetan-Speech-LLM. Aggregate statistics of the training data are provided for reference, and further release details may be announced in the future if conditions permit.
+
+Paper URL: [Ti-Audio: The First Multi-Dialectal End-to-End Speech LLM for Tibetan](https://arxiv.org/abs/2604.11110)
+
+## Full Ti-audio Dataset Composition
+
+The following table summarizes the Tibetan datasets used in the Ti-audio work. This repository corresponds only to the **MUC-Tibetan-Speech-LLM** entry listed below.
+
+Where a stable public dataset homepage is available, a direct clickable link is provided. For sources without a stable standalone dataset page, a reference page is provided instead.
+
+| Task | Data Source | Hours | Samples |
+| --- | --- | ---: | ---: |
+| ASR / ST | [MUC-Tibetan-Speech-LLM](./data) | 305.7 | 162k+ |
+| ASR / ST / GR | [M2ASR Tibetan (project page)](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/M2asr-delivery-phaseI#Tibetan) | 72.3 | 58k+ |
+| ASR | [TIBMD@MUC (OpenSLR SLR124)](https://www.openslr.org/124/) | 84.3 | 68k+ |
+| ASR | [XBMU-AMDO31](https://huggingface.co/datasets/syzym/xbmu_amdo31) | 31.0 | 22k+ |
+| ASR | [MUC-greeting (see Ti-audio paper)](https://arxiv.org/abs/2604.11110) | 2.8 | 3k+ |
+| ASR | [Tibetan SER / TBLS1 (reference page)](https://drpress.org/ojs/index.php/fcis/article/view/23012) | 2.7 | 6k+ |
+| Total | Ti-audio full Tibetan dataset collection | 498.8 | 321k+ |
+
 ## Statement
 
 This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support experimental evaluation and model comparison for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
