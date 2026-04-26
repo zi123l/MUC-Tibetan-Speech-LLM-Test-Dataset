@@ -78,7 +78,7 @@ The following table shows the dialect distribution statistics of the training se
 
 | Dialect | Samples | Hours | Ratio |
 | --- | ---: | ---: | ---: |
-| Amdo | 5279 | 8.7 | 26.2% |
+| Amdo | 5300 | 8.7 | 26.2% |
 | Kham | 7037 | 13.9 | 35.0% |
 | Ü-Tsang | 7800 | 13.9 | 38.8% |
 | Total | 20116 | 36.5 | 100.0% |
