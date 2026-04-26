@@ -14,7 +14,7 @@ The following table summarizes the Tibetan datasets used in the Ti-audio work. T
 
 | Task | Data Source | Hours | Samples |
 | --- | --- | ---: | ---: |
-| ASR / ST | [MUC-Tibetan-Speech-LLM](https://github.com/zi123l/MUC-Tibetan-Speech-LLM-Test-Dataset)) | 305.7 | 162k+ |
+| ASR / ST | [MUC-Tibetan-Speech-LLM](https://github.com/zi123l/MUC-Tibetan-Speech-LLM-Test-Dataset) | 305.7 | 162k+ |
 | ASR / ST / GR | [M2ASR Tibetan (CSLT data index)](http://index.cslt.org/mediawiki/index.php/ASR-nsfc-data) | 72.3 | 58k+ |
 | ASR | [TIBMD@MUC (OpenSLR SLR124)](https://www.openslr.org/124/) | 84.3 | 68k+ |
 | ASR | [XBMU-AMDO31 (OpenSLR SLR133)](https://www.openslr.org/133/) | 31.0 | 22k+ |
