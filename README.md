@@ -22,6 +22,18 @@ The following table summarizes the Tibetan datasets used in the Ti-audio work. T
 | ASR | [Tibetan SER(reference page)](https://drpress.org/ojs/index.php/fcis/article/view/23012) | 2.7 | 6k+ |
 | Total | Ti-audio full Tibetan dataset collection | 498.8 | 321k+ |
 
+## Dialect Distribution in the Full Dataset
+
+The following table reports the dialect distribution statistics of the full dataset collection used in the Ti-audio work. It summarizes both the training and test portions across dialects.
+
+| Dialect | Training Hours | Training Samples | Training Ratio | Test Hours | Test Samples | Test Ratio |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Amdo | 124.4 | 108k | 26.9% | 8.7 | 5.3k | 23.9% |
+| U-Tsang | 216.9 | 287k | 46.9% | 13.9 | 7.8k | 38.0% |
+| Kham | 115.1 | 92k | 24.9% | 13.9 | 7.0k | 38.1% |
+| Unknown | 5.9 | 7k | 1.3% | - | - | - |
+| Total | 462.3 | 494k | 100% | 36.5 | 20.1k | 100% |
+
 ## Statement
 
 This dataset was organized and constructed by Professor Yue Zhao's research group at the School of Information Engineering, Minzu University of China. The current public release corresponds to the open test portion of the Ti-audio Tibetan speech large language model evaluation dataset, and is primarily intended to support experimental evaluation and model comparison for Tibetan automatic speech recognition, Tibetan-Chinese speech translation, and related tasks.
